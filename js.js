@@ -1,4 +1,5 @@
 let comments = [];
+loadComments();
 
 document.getElementById("comment-add").onclick = function () {
   let commentName = document.getElementById("comment-name");
